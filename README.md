@@ -13,7 +13,7 @@ In this exercise, we will help Contoso Air revamp a critical component of their 
 
 This will involve setting up a pipeline so that commits to the GitHub repo invoke a continuous integration build in Azure DevOps. Once that build is complete, it will invoke a continuous delivery deployment to push the bits out to Azure, creating the required resources, if necessary. The first thing we need to do is to connect GitHub with Azure DevOps, which we can do via the __Azure Pipelines__ extension in the GitHub Marketplace.
 
-### Task 1: Installing Azure Pipelines from GitHub Marketplace
+## Task 1: Installing Azure Pipelines from GitHub Marketplace
 __Azure Pipelines__ is available in GitHub Marketplace which makes it even easier for teams to configure a CI/CD pipeline for any application using your preferred language and framework as part of your GitHub workflow in just a few simple steps:
 
 1. Switch to the browser tab open to the root of your GitHub fork.
@@ -45,7 +45,7 @@ __Azure Pipelines__ is available in GitHub Marketplace which makes it even easie
 
     ![install](https://azuredevopslabs.com/labs/vstsextend/github-azurepipelines/images/install.png)
 
-### Task 2: Configuring a Continuous Integration Pipeline
+## Task 2: Configuring a Continuous Integration Pipeline
 Now that Azure Pipelines has been installed and configured, we can start building the pipelines but we will need to select a project where the pipeline will be saved. You may select an existing or create a new Azure DevOps project to hold and run the pipelines we need for continuous integration and continuous delivery. The first thing we’ll do is to create a CI pipeline.
 
 1. Select the organization and Azure DevOps project that you want to use. If you do not have one, you can create for free.
@@ -105,7 +105,7 @@ Now that Azure Pipelines has been installed and configured, we can start buildin
 
     ![build1](https://azuredevopslabs.com/labs/vstsextend/github-azurepipelines/images/build1.png)
 
-### Task 3: Adding a build status badge
+## Task 3: Adding a build status badge
 An important sign for a quality project is its build status badge. When someone finds a project that has a badge indicating that the project is currently in a successful build state, it’s a sign that the project is maintained effectively.
 
 1. Click the build pipeline to navigate to its overview page.
@@ -154,7 +154,7 @@ An important sign for a quality project is its build status badge. When someone 
 
     ![statusbadge-github](https://azuredevopslabs.com/labs/vstsextend/github-azurepipelines/images/statusbadge-github.png)
 
-### Task 4: Embedding automated tests in the CI pipeline
+## Task 4: Embedding automated tests in the CI pipeline
 Now that we have our CI successfully built, it’s time to deploy but how do we know if the build is a good candidate for release? Most teams run automated tests, such as unit tests, as a part of their CI process to ensure that they are releasing a high-quality software. Teams capture key code metrics such as code coverage, code analysis, as they run the tests, to make sure that the code quality does not drop and the technical debt if not completely eliminated, is kept low.
 
 We’re going to pull down the azure-pipelines.yml file that we created earlier and add tasks to run some tests and publish the test results.
