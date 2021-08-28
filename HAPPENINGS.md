@@ -9,3 +9,6 @@
     * ##[error]Error: Unable to locate executable file: 'zip'. Please verify either the file path exists or the file can be found within a directory specified by the PATH environment variable. Also check the file mode to verify the file is executable.
     * Fixed by installing zip on devops agent machine
     ![devops-error2](https://raw.githubusercontent.com/kinect1things/ContosoAir/master/images/devops-error2.png)
+
+
+    https://img.shields.io/website/http/url.svg
