@@ -2,7 +2,7 @@
 https://azuredevopslabs.com/labs/vstsextend/github-azurepipelines/
 
 [![Pipeline](https://dev.azure.com/wardzen/Contoso%20Air/_apis/build/status/kinect1things.ContosoAir?branchName=master)](https://dev.azure.com/wardzen/Contoso%20Air/_build/latest?definitionId=2&branchName=master) 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithubci-web-contosoair.azurewebsites.net)](https://githubci-web-contosoair.azurewebsites.net)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithubci-web-contosoair.azurewebsites.net)](https://githubci-web-contosoair-asp.azurewebsites.net)
 [![License](https://img.shields.io/github/license/kinect1things/ContosoAir)](https://github.com/kinect1things/ContosoAir/blob/master/LICENSE)
 
 ## Lab Scenario:
