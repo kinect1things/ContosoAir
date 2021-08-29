@@ -1,7 +1,9 @@
 # ContosoAir
 https://azuredevopslabs.com/labs/vstsextend/github-azurepipelines/
 
-[![Build Status](https://dev.azure.com/wardzen/Contoso%20Air/_apis/build/status/kinect1things.ContosoAir?branchName=master)](https://dev.azure.com/wardzen/Contoso%20Air/_build/latest?definitionId=2&branchName=master) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fgithubci-web-contosoair.azurewebsites.net) ![MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+![Build Status](https://dev.azure.com/wardzen/Contoso%20Air/_apis/build/status/kinect1things.ContosoAir?branchName=master)(https://dev.azure.com/wardzen/Contoso%20Air/_build/latest?definitionId=2&branchName=master) 
+[![Website]](https://img.shields.io/website?url=https%3A%2F%2Fgithubci-web-contosoair.azurewebsites.net) 
+[![MIT]](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 ## Lab Scenario:
 In this lab, we’ll be illustrating the integration and automation benefits of __Azure DevOps__. We will take on the role of helping a fictitious airline—Contoso Air—that has developed their flagship web site using Node.js. To improve their operations, they want to implement pipelines for continuous integration and continuous delivery so that they can quickly update their public services and take advantage of the full benefits of DevOps and the cloud.
